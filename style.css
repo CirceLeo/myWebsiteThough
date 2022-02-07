@@ -1,3 +1,16 @@
 body {
-    background: #367588;
+    background: linear-gradient(#367588, rgb(126, 122, 122));
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link {
+    color:darkslategrey;
+    text-decoration: dashed;
+}
+a:visited {
+    color:aqua;
+    text-decoration: dashed;
 }
