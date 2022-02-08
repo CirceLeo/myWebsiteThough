@@ -1,9 +1,11 @@
 body {
     background: linear-gradient(#367588, rgb(126, 122, 122));
+    background-size: 101%, 100%;
 }
 
 h1 {
     text-align: center;
+    background-color: antiquewhite;
 }
 
 a:link {
@@ -13,4 +15,22 @@ a:link {
 a:visited {
     color:aqua;
     text-decoration: dashed;
+}
+a:hover{
+    background-color: rgb(89, 24, 194);
+}
+
+*{
+    font-family: Garamond, Georgia, serif;
+}
+
+img{
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img:hover{
+    transform: scaleX(-1);
 }
