@@ -8,29 +8,41 @@
     <body>
         <script src="script.js"></script>
         <h1>Calypso Leonard's idle thoughts</h1>
+        <p> Hi, I'm Calypso, and this is a fun practice website. If you wanna see the code for this high-tech site, click 
+            <a 
+                href="https://github.com/CirceLeo/myWebsiteThough" 
+                target="_blank">
+                here!
+            </a>
+        </p>
         <h3>Here are a few things I enjoy:</h3>
         <ul>
-            <li>Houseplants</li>
+            <li>Houseplants 
+                <a href="#plantSection">(see below) </a>
+            </li>
             <li>Baking things like:</li>
             <ul>
                 <li>
                     <a
                         href="https://cooking.nytimes.com/recipes/1018045-chocolate-babka"
-                        target="_blank">
+                        target="_blank"
+                        class="foodLink">
                         Babka
                     </a>
                 </li>
                 <li>
                     <a 
                         href="https://www.kingarthurbaking.com/recipes/sourdough-english-muffins-recipe"
-                        target="_blank"> 
+                        target="_blank"
+                        class="foodLink"> 
                         Sourdough English Muffins  
                     </a>
                 </li>
                 <li>
                     <a 
                         href="http://www.bakingequalslove.com/2010/11/sea-salt-cracker-toffee-and-secret.html"
-                        target="_blank">
+                        target="_blank"
+                        class="foodLink">
                         Salted Chocolate Toffee
                     </a>
                 </li>
@@ -46,5 +58,25 @@
             alt="My ancestor Saet"
             width="200" height="300" 
         />
+        <p>He lived here:</p>
+        <div id="map">
+            <img 
+                id="map"
+                src="Images/world.png"
+                alt="blank map"
+                usemap="#map"
+            >
+            <map name="map">
+            </map>
+        </div>
+        <h5 id="plantSection">
+            Here are a few of my plants!
+        </h5>
+
     </body>
 </html>
+<!--old attempts kept here for reference
+<script
+src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+async>
+</script>-->

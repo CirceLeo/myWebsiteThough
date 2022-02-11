@@ -31,6 +31,12 @@ img{
     margin-right: auto;
 }
 
-img:hover{
+#Saet:hover{
     transform: scaleX(-1);
 }
+
+#map {
+    height: 400px;
+    width: 800px;
+    
+  }
