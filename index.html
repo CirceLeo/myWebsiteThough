@@ -58,7 +58,7 @@
             alt="My ancestor Saet"
             width="200" height="300" 
         />
-        <p>He lived here:</p>
+        <p>He lived in St. Petersburg - see if you can click where that is!</p>
         <div id="map">
             <img 
                 id="map"
@@ -67,6 +67,18 @@
                 usemap="#map"
             >
             <map name="map">
+                <area 
+                    shape="circle" 
+                    coords="440, 65, 10" 
+                    href="https://en.wikipedia.org/wiki/Saint_Petersburg"
+                    target="_blank"
+                    onclick="stPetersburgAlert()"
+                >
+                <script>
+                    function stPetersburgAlert(){
+                        alert("That's right! Here's more about St. Petersburg...");
+                    }
+                </script>
             </map>
         </div>
         <h5 id="plantSection">
