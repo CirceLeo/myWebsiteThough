@@ -3,6 +3,10 @@ body {
     background-size: 101%, 100%;
 }
 
+*{
+    font-family: Garamond, Georgia, serif;
+}
+
 h1 {
     text-align: center;
     background-color: antiquewhite;
@@ -20,8 +24,8 @@ a:hover{
     background-color: rgb(89, 24, 194);
 }
 
-*{
-    font-family: Garamond, Georgia, serif;
+#saetSection {
+    line-height: 3px;
 }
 
 img{

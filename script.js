@@ -1,13 +1,21 @@
-/*const sub = document.createElement("h2");
-sub.textContent = "I added this content";
-document.querySelector("body").appendChild(sub); */
 
-const foodLink = document.getElementsByClassName("foodLink")
-foodLink.addEventListener("click", sendGoodbye);
+
+const foodLink = document.getElementsByClassName("foodLink");
+foodLink.addEventListener("click", sendGoodbye());
 
 function sendGoodbye(){
     alert (`Enjoy the ${foodName}!`);
 }
+
+function stPetersburgAlert(){
+    alert("That's right! Here's more about St. Petersburg...");
+}
+
+/* old removed code for reference 
+
+const sub = document.createElement("h2");
+sub.textContent = "I added this content";
+document.querySelector("body").appendChild(sub); 
 
 
 function initMap() {
@@ -24,3 +32,4 @@ function initMap() {
       map: map,
     });
   }
+  */

@@ -50,36 +50,33 @@
             <li>Being <em>AGRESSIVELY</em> basic, apparently</li>
             <li>British Comedy</li>
         </ul>
-        <h5>Anyway, here's a picture of my great great great grandfather Saet</h5>  
-        <p>(hover over his picture to make him look the other way)</p>
-        <img 
-            id="Saet"
-            src="Images/Saet.jpg" 
-            alt="My ancestor Saet"
-            width="200" height="300" 
-        />
-        <p>He lived in St. Petersburg - see if you can click where that is!</p>
-        <div id="map">
+        <div id="saetSection">
+            <h4>Anyway, here's a picture of my great great great grandfather Saet:</h5>  
+            <p>(hover over his picture to make him look the other way)</p>
             <img 
-                id="map"
-                src="Images/world.png"
-                alt="blank map"
-                usemap="#map"
-            >
-            <map name="map">
-                <area 
-                    shape="circle" 
-                    coords="440, 65, 10" 
-                    href="https://en.wikipedia.org/wiki/Saint_Petersburg"
-                    target="_blank"
-                    onclick="stPetersburgAlert()"
+                id="Saet"
+                src="Images/Saet.jpg" 
+                alt="My ancestor Saet"
+                width="200" height="300" 
+            />
+            <p>He lived in St. Petersburg - see if you can click where that is!</p>
+            <div id="map">
+                <img 
+                    id="map"
+                    src="Images/world.png"
+                    alt="blank map"
+                    usemap="#map"
                 >
-                <script>
-                    function stPetersburgAlert(){
-                        alert("That's right! Here's more about St. Petersburg...");
-                    }
-                </script>
-            </map>
+                <map name="map">
+                    <area 
+                        shape="circle" 
+                        coords="440, 65, 10" 
+                        href="https://en.wikipedia.org/wiki/Saint_Petersburg"
+                        target="_blank"
+                        onclick="stPetersburgAlert()"
+                    >
+                </map>
+            </div>
         </div>
         <h5 id="plantSection">
             Here are a few of my plants!
