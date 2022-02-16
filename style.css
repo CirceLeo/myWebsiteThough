@@ -21,7 +21,7 @@ a:visited {
     text-decoration: dashed;
 }
 a:hover{
-    background-color: rgb(89, 24, 194);
+    background-color: rgb(69, 24, 194);
 }
 
 #saetSection {
@@ -45,3 +45,22 @@ img{
     margin-left: auto;
     margin-right: auto;
   }
+
+.plant_description{
+    visibility: hidden;
+}
+div.gallery:hover .plant_description{
+    visibility: visible;
+}
+div.gallery {
+    margin: 15px;
+    float: left;
+    width: 250px;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.gallery img:hover{
+    width: 110%;
+}

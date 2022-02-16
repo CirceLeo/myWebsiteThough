@@ -1,9 +1,11 @@
 
 
 const foodLink = document.getElementsByClassName("foodLink");
-foodLink.addEventListener("click", sendGoodbye());
 
-function sendGoodbye(){
+foodLink.addEventListener("click", sendFoodGoodbye());
+let foodName
+
+function sendFoodGoodbye(){
     alert (`Enjoy the ${foodName}!`);
 }
 
